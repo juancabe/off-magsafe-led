@@ -1,7 +1,7 @@
 # How to disable MagSafe LED
 
 ## **Incompatibility** with [battery](https://github.com/actuallymentor/battery)
-Battery seems to be constantly turning the LED on, so if you have it installed your LED will be bliking.
+Battery seems to be constantly turning the LED on, so if you have it installed your LED will be blinking.
 
 ## Configure
 Just run the configure.sh script
