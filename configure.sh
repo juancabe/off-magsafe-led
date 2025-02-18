@@ -11,6 +11,9 @@ USER_HOME="$1"
 mkdir -p ~/Library/LaunchAgents
 mkdir -p ~/bin
 
+# Copy smc to /usr/local/bin
+sudo cp ./smc /usr/local/bin/smc
+
 # Use sed to replace /Users/user with the provided home directory.
 # Create temporary files with substituted paths.
 sed "s|/Users/user|${USER_HOME}|g" com.user.magsafe_daemon.plist > /tmp/com.user.magsafe_daemon.plist.tmp
